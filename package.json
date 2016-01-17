@@ -1,0 +1,10 @@
+{
+  "name": "watchful-hobbit",
+  "description": "Uchiwa dashboard for Heroku.",
+  "scripts": {
+    "postinstall": "go get github.com/sensu/uchiwa"
+  },
+  "engines": {
+    "node": "0.12.0"
+  }
+}
