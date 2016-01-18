@@ -14,3 +14,14 @@ echo "
 }
 " > "${DIST_PATH}/uchiwa-port.json"
 
+echo "
+{
+    \"sensu\": [
+        {
+          \"name\": \"${DATACENTER_NAME}\",
+          \"host\": \"${DATACENTER_HOST}\",
+          \"port\": ${DATACENTER_PORT}
+        }
+    ]
+}
+" > "${DIST_PATH}/datacenter.json"
