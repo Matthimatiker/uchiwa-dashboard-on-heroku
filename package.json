@@ -2,7 +2,7 @@
   "name": "watchful-hobbit",
   "description": "Uchiwa dashboard for Heroku.",
   "scripts": {
-    "postinstall": "go get github.com/sensu/uchiwa && cd $GOPATH/src/github.com/sensu/uchiwa && npm install --production"
+    "skip-postinstall": "go get github.com/sensu/uchiwa && cd $GOPATH/src/github.com/sensu/uchiwa && npm install --production"
   },
   "engines": {
     "node": "0.12.0"
