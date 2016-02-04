@@ -1,0 +1,29 @@
+{
+  "name": "Watchful Hobbit",
+  "description": "Uchiwa dashboard hosted on Heroku.",
+  "success_url": "/",
+  "env": {
+    "DATACENTER_HOST": {
+      "description": "Hostname of the datacenter without scheme. Example: sensu.my-company.org",
+      "required": true
+    },
+    "DATACENTER_PORT": {
+      "description": "Port of the datacenter.",
+      "required": true
+    },
+    "DATACENTER_NAME": {
+      "description": "Name of the datacenter, which is displayed on the dashboard.",
+      "required": true
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-go"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}
