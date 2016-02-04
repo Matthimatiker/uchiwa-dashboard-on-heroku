@@ -1,5 +1,5 @@
 {
-  "name": "Watchful Hobbit",
+  "name": "Uchiwa Dashboard on Heroku",
   "description": "Uchiwa dashboard hosted on Heroku.",
   "success_url": "/",
   "env": {
